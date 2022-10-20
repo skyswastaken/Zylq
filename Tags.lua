@@ -7,7 +7,7 @@ return {
     TagText = "COMET OWNER",
     TagColor = Color3.fromRGB(0,255,200)
   },
-  ["dsfdfssdfdfssdf2"] = {
+  ["Ishid1234t"] = {
     TagText = "NOBOLINE OWNER",
     TagColor = Color3.fromRGB(255,255,0)
   },
