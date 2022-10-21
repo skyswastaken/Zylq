@@ -18,5 +18,9 @@ return {
   ["ihads_Xwithyoulol"] = {
     TagText = "Cumslut",
     TagColor = Color3.fromRGB(255,0,255)
+  },
+  ["sss_6475487"] = {
+    TagText = "COMET SCRIPTER",
+    TagColor = Color3.fromRGB(65,65,255)
   }
 }
