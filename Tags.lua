@@ -1,5 +1,5 @@
 return {
-  ["rgfrhfghfgjfgh"] = {
+  ["IIIlllIlIIlIllIIl"] = {
     TagText = "COMET SCRIPTER",
     TagColor = Color3.fromRGB(255,65,65)
   },
