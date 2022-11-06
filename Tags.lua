@@ -19,6 +19,18 @@ return {
     TagText = "Cumslut",
     TagColor = Color3.fromRGB(255,0,255)
   },
+  ["AstralVaspe"] = {
+    TagText = "NIGHTBED OWNER",
+    TagColor = Color3.fromRGB(255,95,95)
+  },
+  ["PrismUserz"] = {
+    TagText = "PRISM USER",
+    TagColor = Color3.fromRGB(255,95,95)
+  },
+  ["xAom95"] = {
+    TagText = "NIGHTBED OWNER",
+    TagColor = Color3.fromRGB(255,95,95)
+  },
   ["sss_6475487"] = {
     TagText = "COMET SCRIPTER",
     TagColor = Color3.fromRGB(65,65,255)
