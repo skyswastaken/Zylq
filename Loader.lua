@@ -1,7 +1,7 @@
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local yes = Players.LocalPlayer.Name
-local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ham-135/CometWL/main/Tags.lua"))()
+local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/CometWL/main/Tags.lua"))()
 
 
 
