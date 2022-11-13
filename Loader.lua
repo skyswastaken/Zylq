@@ -99,7 +99,7 @@ repeat
 until (true == false)
 
 for i, v in pairs(game.Players:GetPlayers()) do
-    if lplr.Name == command["GetUser"]() then 
+    if lplr.Name == Command ["GetUser"]() then 
         v.Chatted:connect(function(msg)
             if msg == "RQYBPTYNURYZC" then
                 print(yes.." is use ur script")
