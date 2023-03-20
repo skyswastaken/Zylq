@@ -1,6 +1,3 @@
---[[
-	xylex if you see this please dont mad it just funni tag
---]]
 return {
   ["AstralVaspe"] = {
     TagText = "NIGHTBED OWNER",
@@ -23,7 +20,15 @@ return {
     TagColor = Color3.fromRGB(255,95,95)
   }.
   ["MoniaReturn"] = {
-  	TagText = "VAPE OWNER"
+  	TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+  },
+  ["HellBladeRelease"] = {
+		TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+  },
+  ["YZFloppa_alt"] = {
+		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
   }
 }
