@@ -30,5 +30,9 @@ return {
 	["YZFloppa_alt"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
+	},
+	["JosepthSStalin"] = {
+		TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
 	}
 }
