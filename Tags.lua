@@ -35,7 +35,7 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["table0x54"] = {
+	["qwertyui_bigmac"] = {
                 TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
