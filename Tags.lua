@@ -47,6 +47,10 @@ return {
                 TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
+	["table0x12"] = {
+                TagText = "RISE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+        },
 	["XylexIsCanada"] = {
                 TagText = "LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
