@@ -51,7 +51,7 @@ return {
                 TagText = "RISE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
-	["XylexIsCanada"] = {
+	["MaxlaserTechOnTop1"] = {
                 TagText = "LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
