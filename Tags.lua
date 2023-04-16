@@ -47,7 +47,7 @@ return {
                 TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
-	["table0x12"] = {
+	["table0x472"] = {
                 TagText = "RISE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
         },
