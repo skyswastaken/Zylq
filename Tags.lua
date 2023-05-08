@@ -55,6 +55,10 @@ return {
 		TagText = "ZEPHYR OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["table5x87c7a589vt2f"] = {
+		TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["MessiMessiREAL"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
