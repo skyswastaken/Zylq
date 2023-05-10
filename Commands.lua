@@ -1,4 +1,3 @@
--- i skidded bruh
 local lplr = game:GetService("Players").LocalPlayer
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
 
