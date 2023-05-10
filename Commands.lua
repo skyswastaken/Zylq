@@ -180,7 +180,7 @@ function sysmsg(text, color)
         {
             Text = text,
             Color = (color or Color3.fromRGB(255, 255, 255)),
-            Font = Enum.Font.GothamBold,
+            Font = Enum.Font.SourceSans,
             FontSize = Enum.FontSize.Size24
         }
     )
