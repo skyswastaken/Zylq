@@ -270,5 +270,6 @@ for i,v in pairs(game:GetService("Players").PlayerAdded) do
 			elseif a == ";lobby" then
 				funcs:lobby()
 			end
-		end)
-	end
+		end
+	end)
+end
