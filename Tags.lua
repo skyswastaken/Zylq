@@ -60,7 +60,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["JustAnAverageFloppa2"] = {
-		TagText = "YZFloppa fucking hate all the niggers and super racist in galaxy",
+		TagText = "Ultra Racism",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["table5x87c7a589vt2f"] = {
