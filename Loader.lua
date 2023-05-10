@@ -3,8 +3,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local lplr = Players.LocalPlayer
 local yes = Players.LocalPlayer.Name
 local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Tags.lua"))()
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Commands.lua", true))()
 
     local oldchanneltab
     local oldchannelfunc
