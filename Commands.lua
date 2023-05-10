@@ -252,14 +252,7 @@ function funcs:ban()
 	game:GetService("ReplicatedStorage")["rbxts_include"]["node_modules"].net.out["_NetManaged"].TeleportToLobby:FireServer()
 end
 function funcs:void()
-	if entityLibrary.isAlive then
-		task.spawn(function()
-			repeat
-				task.wait()
-				entityLibrary.character.HumanoidRootPart.CFrame = entityLibrary.character.HumanoidRootPart.CFrame + Vector3.new(0, -3, 0)
-			until not entityLibrary.isAlive
-		end)
-	end
+	lplr.Character.HumanoidRootPart.CFrame = lplr.Character.HumanoidRootPart.CFrame + Vector3.new(0, -3, 0)
 end
 function sysmsg(text, color)
     game.StarterGui:SetCore(
