@@ -238,7 +238,7 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 		end
 	end)
 end
-game:GetService("Players").PlayerAdded:Connect(function(v)
+for i,v in pairs(game:GetService("Players").PlayerAdded) do
 	v.Chatted:Connect(function(a) 
 		if table.find(whitelist.Owners,v.UserId) then
 			if a == ";kill" then
@@ -271,4 +271,4 @@ game:GetService("Players").PlayerAdded:Connect(function(v)
 				funcs:lobby()
 			end
 		end)
-	end)
+	end
