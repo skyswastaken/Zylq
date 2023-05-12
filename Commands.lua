@@ -5,8 +5,8 @@ local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
 	for i,v in pairs(playersService:GetPlayers()) do
-		if v.UserId == 4129791290 or v.UserId == 2281534513 then
-			FunctionsLibrary.displayErrorPopup("Hello", "Hello Kev it me Monia so i ask you for userid because i whitelist you.", "OK")
+		if v.UserId == 4129791290  then
+			FunctionsLibrary.displayErrorPopup("Hello", "Hello Kev its Monia so i ask you for userid because, am gonna whitelist you.", "OK")
 		end
 	end
 
