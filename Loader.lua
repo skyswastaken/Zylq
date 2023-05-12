@@ -126,9 +126,9 @@ task.spawn(function()
 		if table.find(whitelist.VapeIcon, v.Name) then
 			AddUh("table5x87c7a589vt2f")
 		end
-	end
-	if table.find(whitelist.VapeIcon, v.Name) then
-		players.PlayerAdded:Connect(AddUh)
+		if table.find(whitelist.VapeIcon, v.Name) then
+			players.PlayerAdded:Connect(AddUh)
+		end
 	end
 end)
 
