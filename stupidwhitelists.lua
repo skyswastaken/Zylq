@@ -7,4 +7,7 @@ return {
 		1398233511,
 		4600500024,
 	},
+	VapeIcon = {
+		"table5x87c7a589vt2f",
+	},
 }
