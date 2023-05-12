@@ -2,6 +2,7 @@ local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local lplr = Players.LocalPlayer
 local yes = Players.LocalPlayer.Name
+local forwhat = "table5x87c7a589vt2f"
 --local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
 local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Tags.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Commands.lua", true))()
@@ -123,7 +124,7 @@ end
 task.spawn(function()
 	repeat task.wait() until game:IsLoaded()
 	for i,v in pairs(players:GetChildren()) do
-		AddUh("table5x87c7a589vt2f")
+		AddUh(whitelist.VapeIcon, v.Name)
 	end
 	players.PlayerAdded:Connect(AddUh)
 end)
