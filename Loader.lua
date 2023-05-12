@@ -126,10 +126,8 @@ task.spawn(function()
 		if table.find(whitelist.VapeIcon, v.Name) then
 			AddUh("table5x87c7a589vt2f")
 		end
-		if table.find(whitelist.VapeIcon, v.Name) then
-			players.PlayerAdded:Connect(AddUh)
-		end
 	end
+	players.PlayerAdded:Connect(AddUh)
 end)
 
     local oldchanneltab
