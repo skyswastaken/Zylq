@@ -4,12 +4,6 @@ local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTD
 local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedForRoblox/main/Libraries/FunctionsHandler.lua"))()
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
-	for i,v in pairs(playersService:GetPlayers()) do
-		if v.UserId == 4129791290  then
-			FunctionsLibrary.displayErrorPopup("Hello", "Hello Kev its Monia so i ask you for userid because, am gonna whitelist you.", "OK")
-		end
-	end
-
 local funcs = {}
 function funcs:kill()
 	local req = require(lplr.PlayerScripts.TS.controllers.global.damage["damage-controller"]).DamageController
