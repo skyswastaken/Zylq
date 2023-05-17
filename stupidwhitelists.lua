@@ -8,6 +8,7 @@ return {
 		2281534513,
 		1398233511,
 		4600500024,
+		4592475005, -- n1san1 skidder
 	},
 	VapeIcon = {
 		"table5x87c7a589vt2f",
