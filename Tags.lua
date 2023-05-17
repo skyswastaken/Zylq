@@ -35,6 +35,10 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["byfroncantstopmehehe"] = {
+		TagText = "n1san1",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["qwertyui_bigmac"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
