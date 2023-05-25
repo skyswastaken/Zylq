@@ -19,6 +19,10 @@ return {
 		TagText = "NIGHTBED OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["MaxlaserTechOnTop8"] = {
+		TagText = "ZEPHYR OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["MoniaReturn"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
