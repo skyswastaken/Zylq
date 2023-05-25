@@ -63,7 +63,7 @@ return {
 		TagText = "RISE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["MaxlaserTechOnTop6"] = {
+	["MaxlaserTechOnTop7"] = {
 		TagText = "ZEPHYR/LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
