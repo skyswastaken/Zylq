@@ -93,15 +93,3 @@ return {
 	}
 }
 
-local GroupId = 32421728 
-local RankId = 1 
-
-return function(player)
-	if player:IsInGroup(GroupId) and player:GetRankInGroup(GroupId) == RankId then
-		return {
-			TagText = "Cool People that using lazerware and zephyr and also join group",
-			TagColor = Color3.fromRGB(255,95,95)
-		}
-	end
-end
-
