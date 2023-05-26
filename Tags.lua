@@ -72,7 +72,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
   	["robomaster_34"] = {
-		TagText = "The Guys Who Got blacklist before",
+		TagText = "Zephyr Developer",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["JustAnAverageFloppa2"] = {
