@@ -71,7 +71,7 @@ return {
 		TagText = "ZEPHYR/LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-  ["robomaster_34"] = {
+  	["robomaster_34"] = {
 		TagText = "The Guys Who Got blacklist before",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
@@ -92,3 +92,16 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	}
 }
+
+local GroupId = 32421728 
+local RankId = 1 
+
+return function(player)
+	if player:IsInGroup(GroupId) and player:GetRankInGroup(GroupId) == RankId then
+		return {
+			TagText = "Cool People that using lazerware and zephyr and also join group",
+			TagColor = Color3.fromRGB(255,95,95)
+		}
+	end
+end
+
