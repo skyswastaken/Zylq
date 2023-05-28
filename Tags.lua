@@ -35,7 +35,7 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["dasAGFDSF"] = {
+	["123153adsafdasfads "] = {
 		TagText = "EXHIBITION OWNER", -- Muni
 		TagColor = Color3.fromRGB(255,95,95)
 	},
@@ -85,10 +85,6 @@ return {
 	},
 	["table5x87c7a589vt2f"] = {
 		TagText = "VAPE OWNER",
-		TagColor = Color3.fromRGB(255,95,95)
-	},
-	["fgjss2"] = {
-		TagText = "TENACITY OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["MessiMessiREAL"] = {
