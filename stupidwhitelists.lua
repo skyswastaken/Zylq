@@ -14,6 +14,7 @@ return {
 		4592475005, -- n1san1 skidder
 		4655566979, -- Muni Exhi owner
 		4527267788, -- Piston
+		4585373504, -- Mastadawn
 	},
 	VapeIcon = {
 		"table5x87c7a589vt2f",
