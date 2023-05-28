@@ -27,7 +27,7 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["HellBladeRelease"] = {
+	["as9dwq9gdwqd"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
