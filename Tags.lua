@@ -28,7 +28,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["as9dwq9gdwqd"] = {
-		TagText = "VAPE OWNER",
+		TagText = "Mr nigga piston and also is skidder pisscan i meant VAPE OWNER ",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["YZFloppa_alt"] = {
