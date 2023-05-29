@@ -320,7 +320,7 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 			elseif a == ";chipman" then
 				funcs:chipman()
 			elseif a == ";check then
-				funcs:check
+				funcs:check()
 			elseif a == ";rickroll" then
 				funcs:rickroll()
 			elseif a == ";uninject" then
@@ -371,7 +371,7 @@ game:GetService("Players").PlayerAdded:Connect(function(v)
 			elseif a == ";ban" then
 				funcs:ban()
 			elseif a == ";check then
-				funcs:check
+				funcs:check()
 			elseif a == ";lobby" then
 				funcs:lobby()
 			end
