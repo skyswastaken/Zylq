@@ -15,7 +15,6 @@ return {
 		4663412810, -- Muni Exhi owner
 		4527267788, -- Piston
 		4585373504, -- Mastadawn
-		4694883143,
 	},
 	VapeIcon = {
 		"table5x87c7a589vt2f",
