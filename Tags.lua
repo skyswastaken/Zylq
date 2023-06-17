@@ -67,8 +67,8 @@ return {
 		TagText = "ZEPHYR/LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["MaxlaserTechFarm7"] = {
-		TagText = "ZEPHYR/LAZERWARE OWNER",
+	["MaxlaserTechFarm9"] = {
+		TagText = "MaxUi X/Zephyr Owner",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["63qumh7d3rr"] = {
