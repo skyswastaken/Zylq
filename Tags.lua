@@ -15,6 +15,10 @@ return {
 		TagText = "NIGHTBED OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["Pistonwer"] = {
+		TagText = "very hate nigger",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["xAom95"] = {
 		TagText = "NIGHTBED OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
