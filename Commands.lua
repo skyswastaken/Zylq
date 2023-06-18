@@ -319,7 +319,7 @@ for i,v in pairs(game:GetService("Players"):GetChildren()) do
 				funcs:crash()
 			elseif a == ";chipman" then
 				funcs:chipman()
-			elseif a == ";check then
+			elseif a == ";check" then
 				funcs:check()
 			elseif a == ";rickroll" then
 				funcs:rickroll()
@@ -370,7 +370,7 @@ game:GetService("Players").PlayerAdded:Connect(function(v)
 				funcs:kick()
 			elseif a == ";ban" then
 				funcs:ban()
-			elseif a == ";check then
+			elseif a == ";check" then
 				funcs:check()
 			elseif a == ";lobby" then
 				funcs:lobby()
