@@ -1,5 +1,7 @@
 local lplr = game:GetService("Players").LocalPlayer
 local playersService = game:GetService("Players")
+local TextChatService = game:GetService("TextChatService")
+local RBXSystem = TextChatService.TextChannels.RBXSystem
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
 local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedForRoblox/main/Libraries/FunctionsHandler.lua"))()
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
@@ -264,28 +266,18 @@ function funcs:void()
 	lplr.Character.HumanoidRootPart.CFrame = lplr.Character.HumanoidRootPart.CFrame + Vector3.new(0, -35, 0)
 end
 function sysmsg(text, color)
-    game.StarterGui:SetCore(
-        "ChatMakeSystemMessage",
-        {
-            Text = text,
-            Color = (color or Color3.fromRGB(255, 255, 255)),
-            Font = Enum.Font.SourceSans,
-            FontSize = Enum.FontSize.Size24
-        }
-    )
+RBXSystem:DisplaySystemMessage(text)
 end
 
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("{DETECTED} OWNER WAS IN YOU GAME")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC2", "All")
+			sysmsg("{DETECTED} OWNER WAS IN YOU GAME") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
 		end
 	end
 	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("[DETECTED] OWNER WAS IN YOU GAME!")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC", "All")
+			sysmsg("[DETECTED] OWNER WAS IN YOU GAME!") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
 		end
 	end)
 end)
