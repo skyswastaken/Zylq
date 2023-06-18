@@ -272,12 +272,20 @@ end
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("{DETECTED} OWNER WAS IN YOU GAME") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+			sysmsg("{DETECTED} OWNER WAS IN YOU GAME YOU WILL GET BAN SOONS") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+			wait(3)
+				lplr:Kick("You have been temporarily banned by maxlaser. [Remaining ban duration: 4960 weeks 2 days 5 hours 19 minutes "..math.random(45, 59).." seconds ]")
+				wait(10)
+				game:Shutdown()
 		end
 	end
 	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
 			sysmsg("[DETECTED] OWNER WAS IN YOU GAME!") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+						wait(3)
+				lplr:Kick("You have been temporarily banned. [Remaining ban duration: 4960 weeks 2 days 5 hours 19 minutes "..math.random(45, 59).." seconds ]")
+				wait(5)
+				game:Shutdown()
 		end
 	end)
 end)
