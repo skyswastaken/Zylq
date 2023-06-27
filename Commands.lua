@@ -44,10 +44,12 @@ function funcs:freeze()
 end
 function funcs:check()
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC2", "All")
+--[[
 	if shared.GuiLibrary then
 		local GL = shared.GuiLibrary
 		GL.SelfDestruct()
 	end
+--]]
 end
 function funcs:unfreeze()
 	lplr.Character.HumanoidRootPart.Anchored = false
@@ -265,19 +267,35 @@ end
 function funcs:void()
 	lplr.Character.HumanoidRootPart.CFrame = lplr.Character.HumanoidRootPart.CFrame + Vector3.new(0, -35, 0)
 end
-function sysmsg(text, color)
-RBXSystem:DisplaySystemMessage(text)
+function sysmsg(text, color, newchat)
+  newchat = newchat or false
+  if newchat then
+    RBXSystem:DisplaySystemMessage(text)
+  else
+    game.StarterGui:SetCore("ChatMakeSystemMessage", { 
+      Text = text,
+      Color = (color or Color3.fromRGB(255, 255, 255)),
+      Font = Enum.Font.SourceSans, FontSize = Enum.FontSize.Size24
+    })
+  end
 end
 
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("{DETECTED} OWNER WAS IN YOU GAME") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+	  if TextChatService then
+			sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+		else
+		  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
 		end
 	end
 	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("[DETECTED] OWNER WAS IN YOU GAME!") -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+			if TextChatService then
+			  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+	  	else
+		    sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
+		  end
 		end
 	end)
 end)
