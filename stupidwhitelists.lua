@@ -17,6 +17,7 @@ return {
 		4585373504, -- Mastadawn
 		4138361221,
 		4741769647, -- yzfloppa 2.0
+		4751418670,
 	},
 	VapeIcon = {
 		"table5x87c7a589vt2f",
