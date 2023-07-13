@@ -83,7 +83,7 @@ return {
 		TagText = "ZEPHYR/LAZERWARE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-  ["robomaster_34"] = {
+  	["robomaster_34"] = {
 		TagText = "Zephyr Developer",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
@@ -92,6 +92,10 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["table5x87c7a589vt2f"] = {
+		TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
+	["risezar"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
