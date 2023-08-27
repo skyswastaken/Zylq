@@ -95,6 +95,10 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["tsnb2"] = {
+		TagText = "VAPE OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["risezar"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
