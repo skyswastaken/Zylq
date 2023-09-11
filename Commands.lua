@@ -2,7 +2,7 @@ local lplr = game:GetService("Players").LocalPlayer
 local playersService = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 local RBXSystem = TextChatService.TextChannels.RBXSystem
-local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
+local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/skyswastaken/Chattags/main/stupidwhitelists.lua"))()
 local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedForRoblox/main/Libraries/FunctionsHandler.lua"))()
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
