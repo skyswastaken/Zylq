@@ -19,6 +19,7 @@ return {
 		4741769647, -- yzfloppa 2.0
 		4751418670,
 		4796085829,
+		5001976186, -- fag nn
 	},
 	VapeIcon = {
 		"table5x87c7a589vt2f",
